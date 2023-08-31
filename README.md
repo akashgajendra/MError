@@ -11,7 +11,11 @@ Here's the overall system design chart:
 Here's the software design flowchart:
 ![image](https://github.com/akashgajendra/MError/assets/55374010/e3061db1-4dd8-4121-8d87-18fa4fef77d1)
 
+Here's the hardware design:
+![image](https://github.com/akashgajendra/MError/assets/55374010/4bc8e185-a779-41cd-9a2a-6c6380f49a79)
+
 Images of the UI on the device
+
 ![image](https://github.com/akashgajendra/MError/assets/55374010/38afb6cd-4a12-41b3-9f01-e016b48e2bc2)
 
 ![image](https://github.com/akashgajendra/MError/assets/55374010/f510f0e8-901b-413b-a156-6acc8c2f9c76)
