@@ -1,20 +1,56 @@
-# MError - Personalized Smart Mirror Device
+# MError
 
-This repo holds contains all the files associated with development of the MError smart mirror device.
-The project consisted of designed an IoT based mirror capable of serving as one-stop information center for any user. We offer two different views: Guest Mode and Authenticated User Mode. The guest mode has general purpose information (like news, weather) while the authenticated user mode has custom information such as personal To-Do lists etc.
+After installing the project directory follow these steps to succesfully run the program. 
 
-Here's the video demonstrating the device: https://youtu.be/ENrQQiRmLdM
+## Virtual Environment Setup
 
-Here's the overall system design chart:
-![image](https://github.com/akashgajendra/MError/assets/55374010/e32d18ce-16db-4df5-84d5-eb55a7e1f736)
+First you must start the virtual environment.
 
-Here's the software design flowchart:
-![image](https://github.com/akashgajendra/MError/assets/55374010/e3061db1-4dd8-4121-8d87-18fa4fef77d1)
+Cd into project directory
 
-Images of the UI on the device
-![image](https://github.com/akashgajendra/MError/assets/55374010/38afb6cd-4a12-41b3-9f01-e016b48e2bc2)
+Run these commands to setup, activate and deactivate virtual environment
+```
+virtualenv venv
+venv\scripts\activate
+deactivate
+```
 
-![image](https://github.com/akashgajendra/MError/assets/55374010/f510f0e8-901b-413b-a156-6acc8c2f9c76)
+If using mac, instead of venv\scripts\activate
 
-Team Members: Akash Gajendra, Jeemin Han, Esha Adhawade, Nicholas Evans, Reis Fredreickson, Tyler Nichols
-The original repo can be found here: https://github.com/jeeminhan/MError
+```
+source venv/bin/activate
+```
+
+## Installing dependencies
+
+Once in the virtual environment you'll install the needed dependencies.
+
+All dependencies have been added to the requirements.txt file
+
+Note: Edit requirements.txt with new dependencies as the application needs more
+```
+pip install -r requirements.txt
+pip install requests
+pip install tweepy
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install python-dotenv
+
+(in case of errors pip3 install --upgrade oauth2client)
+```
+
+Make sure you have the necessary .env file. (You may have to rename the file to .env) If using mac (⌘ + ⇧ + SHIFT) to view '.' files.
+
+## Django Run-time commands
+
+Run these commands to start the Django server. Go to the specified server location (i.e. http://127.0.0.1:8000/) to view the end product.
+
+Note: Migration commands only required when changes made to the data models/database
+```
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
+## Notes
+
+The main files that are being changed are the views.py and the index.html file. Look at these files if you need to add API's / change the HTML.
