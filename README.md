@@ -18,5 +18,4 @@ Images of the UI on the device
 
 Team Members: Akash Gajendra, Jeemin Han, Esha Adhawade, Nicholas Evans, Reis Fredreickson, Tyler Nichols
 
-
 The original repo can be found here: https://github.com/jeeminhan/MError
