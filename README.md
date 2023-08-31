@@ -6,13 +6,12 @@ The project consisted of designed an IoT based mirror capable of serving as one-
 Here's the video demonstrating the device: https://youtu.be/ENrQQiRmLdM
 
 Here's the overall system design chart:
+![image](https://github.com/akashgajendra/MError/assets/55374010/4bc8e185-a779-41cd-9a2a-6c6380f49a79)
+
 ![image](https://github.com/akashgajendra/MError/assets/55374010/e32d18ce-16db-4df5-84d5-eb55a7e1f736)
 
 Here's the software design flowchart:
 ![image](https://github.com/akashgajendra/MError/assets/55374010/e3061db1-4dd8-4121-8d87-18fa4fef77d1)
-
-Here's the hardware design:
-![image](https://github.com/akashgajendra/MError/assets/55374010/4bc8e185-a779-41cd-9a2a-6c6380f49a79)
 
 Images of the UI on the device
 
