@@ -3,7 +3,7 @@
 This repo holds contains all the files associated with development of the MError smart mirror device.
 The project consisted of designed an IoT based mirror capable of serving as one-stop information center for any user. We offer two different views: Guest Mode and Authenticated User Mode. The guest mode has general purpose information (like news, weather) while the authenticated user mode has custom information such as personal To-Do lists etc.
 
-Here's the video demonstrating the device: https://drive.google.com/file/d/1FkR2V-5hl-B9hJUy6Cj1O-2nGKanrbQw/view?usp=sharing
+Here's the video demonstrating the device: https://youtu.be/ENrQQiRmLdM
 
 Here's the overall system design chart:
 ![image](https://github.com/akashgajendra/MError/assets/55374010/e32d18ce-16db-4df5-84d5-eb55a7e1f736)
